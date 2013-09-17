@@ -1,4 +1,9 @@
-php-soap-at-waybill
-===================
+## Portuguese Tax Authority Waybill
 
-PHP SOAP Client for sending portuguese waybills to the Tax Authority (AT)
+Portuguese tax authority (called AT) demands that waybills be reported to them.
+Using a secure channel, waybill details are transfered and in exchange AT returns
+a unique code (that should be printed in the waybill).
+
+This code allows anyone with a certificate and valid credentials to build a waybill
+from scratch and report it to AT. If everything goes smoothly the unique code is
+returned.
